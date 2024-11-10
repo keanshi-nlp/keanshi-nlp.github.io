@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Kean Shi"
-description              : "Undergraduated in Tianjin University. Master in Peking University advised by Prof. Baobao Chang. Focusing on NLP, LVLM and related algorithm."
+description              : "Undergraduated in Tianjin University. Focusing on NLP, LVLM and related algorithm."
 repository               : "keanshi-nlp/keanshi-nlp.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
+  name             : "Kean Shi"
+  avatar           : "images/profile.png"
+  bio              : "TInajin University"
+  location         : "Tianjin, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : # "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
+  email            : "shikean@tju.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "https://github.com/keanshi-nlp"
   google_plus      :
   keybase          :
   instagram        :
