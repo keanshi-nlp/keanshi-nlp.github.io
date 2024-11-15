@@ -19,7 +19,7 @@ redirect_from:
 
 # 🧐 About me
 I'm currently a undergraduated student in Tianjin University, majoring in Computer Science. I was advised by [Prof. Wenjun Wang](https://cic.tju.edu.cn/faculty/wjwang/index.htm) during 2022 - 2024.
-Next year I will pursue my master's degree in Peking Unversity, advised by [Prof. Baobao Chang](https://pkunlp-icler.github.io/).
+Next year I will pursue my master's degree at the Institute of Computational Linguistics in Peking Unversity, advised by [Prof. Baobao Chang](https://pkunlp-icler.github.io/).
 
 My research interest includes **Natural Language Processing (NLP), Large Visio-Language Model (LVLM), Multimodal Large Language Model (MLLM)**, etc.
 
@@ -27,8 +27,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.09*: &nbsp;🎉🎉 I accept the pre-admission of Peking University. It's my honor to study with the guidence of Prof. Baobao Chang.
 
 # 📝 Publications 
 
@@ -52,8 +51,8 @@ My research interest includes neural machine translation and computer vision. I 
 - *2022.10*, Merit Student Scholarship (3rd).
 
 # 📖 Educations
-- *2025.09 - 2025.06 (Pre-admission)*, Master in Computer Science, Peking University, Beijing.
-- *2021.09 - 2025.06 (Now)*, Undergraduate in Computer Science, Tianjin Universtiy, Tianjin.
+- *2025.09 - 2025.06 (Pre-admission)*, Postgraduate student, School of Computer Science, Peking University, Beijing.
+- *2021.09 - 2025.06 (Now)*, Undergraduate student, College of Intelligence and Computing, Tianjin Universtiy, Tianjin.
 - *2018.09 - 2021.06*, Nankai High School, Tianjin.
 
 # 💬 Invited Talks
