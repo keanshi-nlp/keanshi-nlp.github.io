@@ -53,8 +53,8 @@ My research interest includes neural machine translation and computer vision. I 
 - *2022.10*, Merit Student Scholarship (3rd).
 
 # 📖 Education
-- *2025.09 - 2025.06 (Pre-admission)*, Postgraduate student, School of Computer Science, Peking University, Beijing.
-- *2021.09 - 2025.06 (Now)*, Undergraduate student, College of Intelligence and Computing, Tianjin Universtiy, Tianjin.
+- *2025.09 - 2028.06 (Pre-admission)*, Postgraduate student, School of Computer Science, Peking University, Beijing.
+- *2021.09 - 2025.06 (Now)*, Undergraduate student, College of Intelligence and Computing, Tianjin University, Tianjin.
 - *2018.09 - 2021.06*, Nankai High School, Tianjin.
 
 <!-- # 💬 Invited Talks
