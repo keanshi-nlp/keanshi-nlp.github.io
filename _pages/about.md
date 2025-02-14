@@ -48,9 +48,9 @@ My research interest includes neural machine translation and computer vision. I 
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-- *2024.10*, National Scholarship (Top 1%).
-- *2023.10*, Merit Student Scholarship (2nd).
-- *2022.10*, Merit Student Scholarship (3rd).
+- *2024*, National Scholarship (Top 1%).
+- *2023*, Merit Student Scholarship (2nd).
+- *2022*, Merit Student Scholarship (3rd).
 
 # 📖 Education
 - *2025.09 - 2028.06 (Pre-admission)*, Postgraduate student, School of Computer Science, Peking University, Beijing.
