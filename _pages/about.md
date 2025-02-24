@@ -29,7 +29,8 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2024.09*: &nbsp;🎉🎉 I accept the pre-admission of Peking University. It's my honor to study with the guidence of Prof. Baobao Chang.
+- *2024.11*: I got the Nationl Scholarship for Undergraduate Students.
+- *2024.09*: I accepted the pre-admission of Peking University. It's my honor to study with the guidence of Prof. Baobao Chang.
 
 <!-- # 📝 Publications 
 
