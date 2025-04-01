@@ -2,4 +2,4 @@
 
 https://keanshi-nlp.github.io/
 
-Presonal Academic Homepage, fork from https://mayuelala.github.io/
+Presonal Academic Homepage, fork from mayuelala's repo.
