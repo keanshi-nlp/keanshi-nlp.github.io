@@ -3,9 +3,9 @@ secondary_name: ""
 navbar_name: "Kean Shi's homepage"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+- logo: /assets/images/badges/pku.png  # Logo is optional
+  name: Master in Peking University
+# - name: Position 2 without logo
 
 
 email: "shikean@tju.edu.cn"
@@ -22,42 +22,43 @@ twitter: your_twitter_id  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a four-year undergraduate student of <a href="https://cic.tju.edu.cn/"> College of Intelligence and Computing (CIC)</a> in <a href="https://www.tju.edu.cn/">Tianjin University (TJU)</a>. 
+    This summer I will study for M.Eng at <a href="https://cs.pku.edu.cn/">School of Computer Science</a> in <a href="https://pku.edu.cn/">Peking University (PKU)</a>, supervised by <a href="https://pkunlp-icler.github.io/">Prof. Baobao Chang</a>.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+    My research interests lie in the intersection of <b>Natural Language Processing (NLP)</b>, <b>Large Language Model (LLM)</b> and <b>Multimodal Generative Model</b>. [<a href="https://keanshi-nlp.github.io/CV.pdf">Full CV</a>]
   </p>
-
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/my.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Token in Guiling, Guangxi.
 
 education:
 - name: Peking University
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/pku.png
   position: >-
-    School of Computer Science <br/>
+    School of Computer Science, advised by Prof. Baobao Chang <br/>
     M.Eng in Computer Science
   date: Sep. 2025 - Present
 - name: Tianjin University
-  logo: /assets/images/badges/MIT_Social_circle.png
+  logo: /assets/images/badges/tju.png
   position: >- 
     College of Intelligence and Computing <br/>
     B.E. in Computer Science
   date: Sep. 2021 - Jun. 2025
+- name: Tianjin Nankai High School
+  logo: /assets/images/badges/nkzx.png
+  date: Sep. 2018 - Jun. 2021
 
 experience:
-- name: Peking University
-  logo: /assets/images/badges/PKU_red.png
-  position: Research Intern
-  date: Sep. 2019 - Jul. 2021
+- name: Xiaomi
+  logo: /assets/images/badges/xiaomi.png
+  position: Engineering Intern
+  date: Apr. 2024 - Jun. 2024
 
 awards:
-- name: Award Name 2
-  date: 2024
-- name: Award Name 1 
-  date: 2021
-- name: A quick brown fox jumps over the lazy dog and runs away award
-  date: 2021
+- name: National Scholarship of undergraduate student
+  date: Dec. 2024
+- name: Merit Student of Tianjin University (2nd)
+  date: Apr. 2023
+- name: Merit Student of Tianjin University (3rd)
+  date: Apr. 2022
