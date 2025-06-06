@@ -26,7 +26,7 @@ short_bio: >-
     This summer I will study for M.Eng at <a href="https://cs.pku.edu.cn/">School of Computer Science</a> in <a href="https://pku.edu.cn/">Peking University (PKU)</a>, supervised by <a href="https://pkunlp-icler.github.io/">Prof. Baobao Chang</a>.
   </p>
   <p>
-    My research interests lie in the intersection of <b>Natural Language Processing (NLP)</b>, <b>Large Language Model (LLM)</b> and <b>Multimodal Generative Model</b>. [<a href="https://keanshi-nlp.github.io/CV.pdf">Full CV</a>]
+    My research interests lie in the intersection of <b>Natural Language Processing (NLP)</b>, <b>Multimodal Large Language Model (MLLM)</b> and <b>GUI Agent</b>.
   </p>
 portrait_url: /assets/images/photos/my.jpg
 portrait_caption: >-
@@ -36,17 +36,18 @@ education:
 - name: Peking University
   logo: /assets/images/badges/pku.png
   position: >-
-    School of Computer Science, advised by Prof. Baobao Chang <br/>
+    School of Computer Science, supervised by Prof. Baobao Chang <br/>
     M.Eng in Computer Science
   date: Sep. 2025 - Present
 - name: Tianjin University
   logo: /assets/images/badges/tju.png
   position: >- 
     College of Intelligence and Computing <br/>
-    B.E. in Computer Science
+    B.Eng in Computer Science
   date: Sep. 2021 - Jun. 2025
 - name: Tianjin Nankai High School
   logo: /assets/images/badges/nkzx.png
+  position: Senior High School
   date: Sep. 2018 - Jun. 2021
 
 experience:
@@ -62,3 +63,6 @@ awards:
   date: Apr. 2023
 - name: Merit Student of Tianjin University (3rd)
   date: Apr. 2022
+
+service:
+- name: Student Reviewer of AAAI'25
