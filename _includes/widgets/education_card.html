@@ -1,19 +1,20 @@
 <div class="my-3 bg-white shadow-sm rounded-sm">
-    <h5 class="p-3 mb-0 border-bottom border-gray"><i class="fa-solid fa-book"></i> &nbsp Education</h6>
-    <div class="px-3 pb-1">
-        {% for year in news_by_year %}
-        <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
-            {% assign not_first = true %}
-            <div class="mr-3 text-muted my-1">{{ year.name }}</div>
-            <div class="media-body">
-                {% for item in year.items %}
-                <div class="my-1 d-flex">
-                    <div>{{ item.title }}</div>
-                    <div class="ml-auto mt-auto text-muted no-break"><i>{{ item.date | date: "%b %d" }}</i></div>
+    <h5 class="p-3 mb-0 border-bottom border-gray"><i class="fa-solid fa-book"></i> &nbsp Education</h5>
+    {% for item in site.data.profile.education %}
+    <div class="d-none d-md-block">
+        <div class="row no-gutters border-bottom border-gray">
+            <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px;" class="mr-1 mt-1">
+            </div>
+            <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+                <div>{{ item.name }}</div>
+                <div class="small">{{ item.dept }}</div>
+                <div class="small d-flex">
+                    <div>{{ item.position }}</div>
+                    <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
                 </div>
-                {% endfor %}
             </div>
         </div>
-        {% endfor %}
     </div>
+    {% endfor %}
 </div>
