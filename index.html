@@ -7,13 +7,15 @@ navbar_title: Home
 
 {% include widgets/education_card.html %}
 
+{% include widgets/intern_card.html %}
+
 {% include widgets/debug_repo_name.html %}
 
 {% include widgets/debug_url.html %}
 
-{% if site.data.display.homepage.show_experience %}
+<!-- {% if site.data.display.homepage.show_experience %}
     {% include widgets/experience_card.html %}
-{% endif %}
+{% endif %} -->
 
 {% if site.data.display.homepage.show_news %}
     {% assign count_news = site.news | size %}
