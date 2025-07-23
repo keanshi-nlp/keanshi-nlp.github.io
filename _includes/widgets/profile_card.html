@@ -32,7 +32,7 @@
                         <div class="text-profile-position">
                             {% for position in site.data.profile.positions %}
                             {% if position.logo -%}
-                            <img src="{{ position.logo | relative_url }}" alt="Logo" style="width: 18px;" class="inline-badge"/>
+                            <img src="{{ position.logo | relative_url }}" alt="Logo" style="height: 20px;" class="inline-badge"/>
                             {%- endif %}
                             {{ position.name }}<br/>
                             {% endfor %}
@@ -47,7 +47,7 @@
         
                 </div>
                 <hr />
-                <div class="row">
+                <div class="row" style="font-size: 18px;">
                     <div class="col">
                         <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
                             <i class="fas fa-at"></i> <span class="email-text">{{ site.data.profile.email | replace: "@", "(at)" }}</span>
