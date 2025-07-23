@@ -1,6 +1,6 @@
 primary_name: "Kean Shi (石珂安)"
 secondary_name: ""
-navbar_name: "Kean Shi's homepage"
+navbar_name: "Kean Shi's Homepage"
 
 positions:
 - logo: /assets/images/badges/pku.png  # Logo is optional
@@ -22,7 +22,7 @@ twitter: your_twitter_id  # Do not include the '@' symbol
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    Hello! I am Kean Shi (石珂安), a first-year graduate student at <a href="https://english.pku.edu.cn/">Peking University</a> (<a href="https://cs.pku.edu.cn/English/Home.htm">School of Computer Science</a>), supervised by <a href="https://pkunlp-icler.github.io/">Prof. Baobao Chang</a>.
+    Hello! I am Kean Shi, a first-year graduate student at <a href="https://english.pku.edu.cn/">Peking University</a> (<a href="https://cs.pku.edu.cn/English/Home.htm">School of Computer Science</a>), supervised by <a href="https://pkunlp-icler.github.io/">Prof. Baobao Chang</a>.
     Before that. I received my Bachelor degree in Computer Science from <a href="https://en.tju.edu.cn/">Tianjin University</a> in 2025.
   </p>
   <p>
