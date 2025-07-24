@@ -10,12 +10,15 @@ $(function () {
         },
         afterLoad: function(element) {
             if (element.is('img')) {
-                // remove background-image style
                 element.css('background-image', 'none');
             } else if (element.is('div')) {
-                // set the style to background-size: cover; 
-                element.css('background-size', 'cover');
-                element.css('background-position', 'center');
+                // 只在没有设置 background-size 时才设置
+                if (!element.attr('style')?.includes('background-size')) {
+                    element.css('background-size', 'cover');
+                }
+                if (!element.attr('style')?.includes('background-position')) {
+                    element.css('background-position', 'center');
+                }
             }
         }
     }

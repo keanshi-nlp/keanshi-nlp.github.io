@@ -31,3 +31,11 @@ navbar_title: Home
         publications=pubs
     %}
 {% endif %}
+
+{% if site.data.profile.awards %}
+    {% include widgets/award_card.html %}
+{% endif %}
+
+{% if site.data.profile.service %}
+    {% include widgets/service_card.html %}
+{% endif %}

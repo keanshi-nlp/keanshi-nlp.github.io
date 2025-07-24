@@ -1,0 +1,15 @@
+<div class="my-3 bg-white shadow-sm rounded-sm">
+    <h5 class="p-3 mb-0 border-bottom border-gray">📎&nbsp Service</h5>
+    <div class="px-3 pb-1">
+        <ul class="list small pl-3 mb-1">
+        {% for item in site.data.profile.service %}
+            <li>
+                <div class="d-flex" style="padding-top: 0.5em; font-size: 16px;">
+                    <div>{{ item.name }}</div>
+                    <div class="ml-auto mt-auto no-break"><em>{{ item.date }}</em></div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

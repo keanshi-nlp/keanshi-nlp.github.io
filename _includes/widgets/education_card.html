@@ -1,7 +1,7 @@
 <div class="my-3 bg-white shadow-sm rounded-sm">
     <h5 class="p-3 mb-0 border-bottom border-gray">📚&nbsp Education</h5>
     {% for item in site.data.profile.education %}
-    <div>
+    <div class="d-none d-md-block">
         <div class="row no-gutters border-bottom border-gray align-items-center">
             <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
                 <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}", style="width: 70px; display: block; margin-left: auto; margin-right: auto;">
@@ -12,6 +12,21 @@
                 <div class="d-flex" style="font-size: 16px;">
                     <div>{{ item.position }}</div>
                     <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row border-bottom border-gray no-gutters d-md-none lazy"  style="background-repeat: no-repeat !important; background-position: 110% center !important; background-size: auto 180px !important;" data-src="{{ item.logo | relative_url }}">
+        <div class="w-100 align-items-center" style="background-color: rgba(255,255,255,0.9);">
+            <div class="d-flex align-items-center flex-column py-3 px-4">
+                <!-- <div class="mb-auto"></div> -->
+                <div class="col-xl-10  pl-md-0", style="padding-left: 0rem; padding-right: 0rem;">
+                    <div style="font-size: 18px;">{{ item.name }}</div>
+                    <div style="font-size: 15px;">{{ item.dept }}</div>
+                    <div class="d-flex" style="font-size: 15px;">
+                        <div>{{ item.position }}</div>
+                        <div class="mt-auto ml-auto no-break"><em>{{ item.date }}</em></div>
+                    </div>
                 </div>
             </div>
         </div>
