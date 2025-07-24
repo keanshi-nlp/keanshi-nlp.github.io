@@ -68,7 +68,6 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
-.full-width-flex {
-  width: 100% !important;
-  flex: 1 1 100%;
+.p-5 {
+    padding: 2rem !important
 }
