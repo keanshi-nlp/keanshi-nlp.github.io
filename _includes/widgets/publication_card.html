@@ -6,7 +6,7 @@
     </h5>
     {% for item in publications limit:include.limit %}
         {% include widgets/publication_item.html item=item first=false last=false %}    
-    {% endfor %}
+    {% endfor %} 
     <h6 class="d-block p-3 mt-0 text-right" style="font-size: 16px;">
         <a href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-double-right"></i></a>
     </h6>
