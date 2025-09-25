@@ -3,10 +3,10 @@
     {% for item in site.data.profile.experience %}
     <div class="d-none d-md-block">
         <div class="row no-gutters border-bottom border-gray align-items-center">
-            <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
-                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}", style="width: 70px; display: block; margin-left: auto; margin-right: auto;">
+            <div style="flex:0 0 80px; padding: 1rem 1rem 1rem 2rem;">
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}", style="width: 65px; display: block; margin-left: auto; margin-right: auto;">
             </div>
-            <div class="col-md-9 col-xl-10 p-3 pl-md-0">
+            <div class="flex-grow-1 p-3">
                 <div style="font-size: 18px; font-weight: 600;">{{ item.name }}</div>
                 <div style="font-size: 16px;">{{ item.dept }}</div>
                 <div class="d-flex" style="font-size: 16px;">

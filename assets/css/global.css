@@ -1,27 +1,6 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: "VarelaRound";
-    src: url("../fonts/VarelaRound.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Segoe UI";
-    src: url("../fonts/Segoe UI.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "HanSansSC";
-    src: url("../fonts/SourceHanSansSC.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: "Montserrat";
     src: url("../fonts/Montserrat.ttf") format("truetype");
     font-weight: normal;
@@ -46,9 +25,6 @@ body {
     font-family: "Montserrat";
     font-weight: 400;
     padding-top: 5.0rem;
-}
-:lang(zh) {
-    font-family: HanSansSC;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -81,9 +57,16 @@ h1, h2, h3, h4, h5, h6,
     white-space: nowrap;
 }
 
-.cover-image {
-    width: 180px;
-    max-height: 120px;
+.cover-img {
+    height: auto;  
+    object-fit: contain;  
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cover-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
 }
 
 .abstract-body {
@@ -117,3 +100,4 @@ div.lazy {
 .p-5 {
     padding: 2rem !important
 }
+

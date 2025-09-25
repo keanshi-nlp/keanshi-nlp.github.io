@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>简单示例页面</title>
+  <style>
+    :root{--bg:#f7f7f8;--card:#ffffff;--accent:#9a0000;--muted:#666}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Noto Sans SC',sans-serif;background:var(--bg);color:#111}
+    header{background:linear-gradient(90deg,#fff 0%,#fff0 70%);padding:18px 24px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:46px;height:46px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav a{margin-left:14px;color:var(--muted);text-decoration:none}
+    .container{max-width:980px;margin:28px auto;padding:0 16px}
+    .hero{display:flex;gap:24px;align-items:center}
+    .hero .text{flex:1}
+    h1{margin:0 0 8px;font-size:28px}
+    p.lead{margin:0;color:var(--muted)}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,15,15,0.06)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+    footer{margin-top:36px;padding:18px;text-align:center;color:var(--muted);font-size:14px}
+    button{background:var(--accent);color:#fff;border:0;padding:10px 14px;border-radius:8px;cursor:pointer}
+    @media (max-width:640px){h1{font-size:22px}.hero{flex-direction:column;align-items:flex-start}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">PK</div>
+      <div>
+        <strong>示例站点</strong>
+        <div style="font-size:13px;color:var(--muted)">简洁优雅的静态页面模板</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#">首页</a>
+      <a href="#features">特性</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="text">
+        <h1>欢迎 — 这是一个简单的 HTML 模板</h1>
+        <p class="lead">基于单文件的静态页面，适合作为个人简介页、项目页面或课堂演示。可直接编辑 HTML、CSS 和少量 JavaScript 来扩展功能。</p>
+        <div style="margin-top:14px"><button id="cta">试试这个按钮</button></div>
+      </div>
+      <div style="width:320px">
+        <div class="card">
+          <h3 style="margin-top:0">快速开始</h3>
+          <ul style="margin:8px 0 0 18px;color:var(--muted)">
+            <li>编辑内容替换文本</li>
+            <li>替换 logo 或颜色变量</li>
+            <li>添加更多页面和链接</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" style="margin-top:22px">
+      <div class="grid">
+        <div class="card">
+          <h4 style="margin-top:0">响应式布局</h4>
+          <p style="margin:6px 0;color:var(--muted)">适配手机、平板和桌面设备。</p>
+        </div>
+        <div class="card">
+          <h4 style="margin-top:0">无外部依赖</h4>
+          <p style="margin:6px 0;color:var(--muted)">所有样式和脚本都在同一个文件，便于快速共享和部署。</p>
+        </div>
+        <div class="card">
+          <h4 style="margin-top:0">易于定制</h4>
+          <p style="margin:6px 0;color:var(--muted)">使用 CSS 变量快速修改主题色与间距。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:22px">
+      <div class="card">
+        <h3 style="margin-top:0">联系我</h3>
+        <form onsubmit="alert('表单已提交（示例）');return false;">
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <input placeholder="姓名" required style="flex:1;padding:8px;border-radius:8px;border:1px solid #e6e6e6">
+            <input placeholder="邮箱" required style="flex:1;padding:8px;border-radius:8px;border:1px solid #e6e6e6">
+          </div>
+          <textarea placeholder="留言" required style="width:100%;margin-top:10px;padding:8px;border-radius:8px;border:1px solid #e6e6e6;min-height:90px"></textarea>
+          <div style="margin-top:10px"><button type="submit">发送</button></div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 示例站点 — 由你修改并拥有
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('cta').addEventListener('click', function(){
+      alert('你点击了按钮！这是一个示例交互。');
+    });
+  </script>
+</body>
+</html>
