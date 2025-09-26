@@ -2,13 +2,13 @@
 <div class="my-3 p-0 bg-white shadow-sm rounded-sm">
     <h5 class="border-bottom border-gray p-3 mb-0">
         {% if include.title %}{{ include.title }}{% else %}📝&nbsp Publications &nbsp{% endif %} 
-        <a href="baidu.com"> Full list <i class="fas fa-angle-double-right"></i></a>
+        <!-- <a href="baidu.com"> Full list <i class="fas fa-angle-double-right"></i></a> -->
     </h5>
     {% for item in publications limit:include.limit %}
         {% include widgets/publication_item.html item=item first=false last=false %}    
     {% endfor %} 
     <h6 class="d-block p-3 mt-0 text-right" style="font-size: 16px;">
-        <a href="{{ 'publications' | relative_url }}">All publications <i class="fas fa-angle-double-right"></i></a>
+        <a href="{{ 'publications' | relative_url }}">View all <i class="fas fa-angle-double-right"></i></a>
     </h6>
 </div>
 
