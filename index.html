@@ -216,8 +216,8 @@
 
         .pub-img-wrapper {
             flex-shrink: 0;
-            width: 140px;  /* 图片宽度 */
-            height: 100px; /* 图片高度，根据需要调整 */
+            width: 160px;  /* 图片宽度 */
+            height: 120px; /* 图片高度，根据需要调整 */
             border: 1px solid var(--border-color);
             border-radius: 6px;
             overflow: hidden;
@@ -227,7 +227,7 @@
         .pub-img {
             width: 100%;
             height: 100%;
-            object-fit: cover; /* 裁剪适应 */
+            object-fit: contain; /* 裁剪适应 */
             transition: transform 0.3s;
         }
         
@@ -302,8 +302,8 @@
             }
 
             .pub-img-wrapper {
-                width: 100%; /* 图片全宽 */
-                height: auto;
+                width: auto; /* 图片全宽 */
+                height: 100%;
                 max-height: 180px;
             }
 
@@ -320,32 +320,33 @@
 <div class="container">
 
     <aside class="profile-sidebar">
-        <img src="图片.png" alt="Profile Photo" class="avatar">
+        <img src="./img/my.jpg" alt="Profile Photo" class="avatar">
         
-        <h1 class="name">Alex Chen</h1>
-        <p style="color: var(--text-light); margin-bottom: 20px;">Ph.D. Candidate @ University</p>
+        <h1 class="name">Kean Shi</h1>
+        <p style="color: var(--text-light); margin-bottom: 20px;">M.Sc @ PKU</p>
         
         <ul class="contact-list">
             <li>
+                <span class="contact-label">📍</span> 
+                Beijing, China
+            </li>
+            <li>
                 <span class="contact-label">✉️</span> 
-                <a href="mailto:alex@example.com">alex@example.com</a>
+                <a href="mailto:kashi25@stu.pku.edu.cn">kashi25@stu.pku.edu.cn</a>
             </li>
             <li>
                 <span class="contact-label">🐙</span> 
-                <a href="https://github.com/" target="_blank">GitHub</a>
+                <a href="https://github.com/keanshi-nlp" target="_blank">GitHub</a>
             </li>
             <li>
                 <span class="contact-label">🎓</span> 
-                <a href="#" target="_blank">Google Scholar</a>
+                <a href="https://scholar.google.com/citations?user=8ulEBcQAAAAJ&hl" target="_blank">Google Scholar</a>
             </li>
-            <li>
+            <!-- <li>
                 <span class="contact-label">🐦</span> 
                 <a href="#" target="_blank">Twitter / X</a>
-            </li>
-            <li>
-                <span class="contact-label">📍</span> 
-                Singapore
-            </li>
+            </li> -->
+            
         </ul>
     </aside>
 
@@ -359,93 +360,51 @@
         </nav>
 
         <section id="bio">
-            <h2 class="section-title">Biography</h2>
+            <h2 class="section-title">About Me</h2>
             <p>
-                你好，我是 Alex。目前我是某某大学计算机科学系的博士生，导师是 <a href="#">Prof. Name</a>。
+                Hello! I am Kean Shi, a first-year master student at <a href="https://english.pku.edu.cn/">Peking University</a> (<a href="https://cs.pku.edu.cn/English/Home.htm">School of Computer Science</a>), supervised by <a href="https://pkunlp-icler.github.io/">Prof. Baobao Chang</a>.
+                Before that. I received my bachelor degree in Computer Science from <a href="https://en.tju.edu.cn/">Tianjin University</a> in 2025.
             </p>
             <p>
-                我的研究兴趣主要集中在 <b>计算机视觉 (Computer Vision)</b> 和 <b>生成式模型 (Generative Models)</b>。我致力于探索如何让机器更高效地理解和生成视觉内容。
-            </p>
-            <p>
-                在此之前，我于 2022 年获得了某某大学的本科学位。
+                My research interests lie in the intersection of <b>Natural Language Processing (NLP)</b>, <b>Multimodal Large Language Model (MLLM)</b> and <b>GUI Agent</b>.
             </p>
         </section>
 
         <section id="news">
             <h2 class="section-title">News</h2>
-            
             <ul class="news-list news-scroll-box">
-                
                 <li>
-                    <span class="news-date">2025.02</span>
-                    <span>一篇论文被 CVPR 2025 接收 (Oral)。🎉</span>
+                    <span class="news-date">2025.09</span>
+                    <span>Our proposed STS was released to <i>arXiv</i>, <a href="https://arxiv.org/abs/2509.18150">check it out</a> 🎉</span>
                 </li>
                 <li>
-                    <span class="news-date">2024.11</span>
-                    <span>受邀在 Tech Conference 作报告。</span>
+                    <span class="news-date">2025.07</span>
+                    <span>Graduated from Tianjin University !</span>
                 </li>
                 <li>
-                    <span class="news-date">2024.06</span>
-                    <span>开始在 Research Lab 暑期实习。</span>
+                    <span class="news-date">2024.09</span>
+                    <span> Recommended to Peking University towards the M.S degree !</span>
                 </li>
-                <li>
-                    <span class="news-date">2024.05</span>
-                    <span>获得了优秀研究生奖学金。</span>
-                </li>
-                <li>
-                    <span class="news-date">2024.01</span>
-                    <span>发布了新的开源项目 OpenProject。</span>
-                </li>
-                <li>
-                    <span class="news-date">2023.12</span>
-                    <span>论文被 AAAI 2024 录用。</span>
-                </li>
-                <li>
-                    <span class="news-date">2023.09</span>
-                    <span>加入实验室开始博士研究。</span>
-                </li>
-                
             </ul>
         </section>
 
         <section id="pubs">
-            <h2 class="section-title">Selected Publications</h2>
+            <h2 class="section-title">Publications</h2>
             
             <div class="pub-item">
                 <div class="pub-img-wrapper">
-                    <img src="图片.png" alt="Paper Image" class="pub-img">
+                    <img src="./img/STS.png" alt="Paper Image" class="pub-img">
                 </div>
                 <div class="pub-content">
-                    <a href="#" class="pub-title">Understanding Visual Scenes with Minimalist Models</a>
+                    <a href="https://arxiv.org/abs/2509.18150" class="pub-title">Sparse Training Scheme for Multimodal LLM</a>
                     <div class="pub-authors">
-                        <b>Alex Chen</b>, Co-author One, Co-author Two
+                        <b>Kean Shi</b>, Liang Chen, Haozhe Zhao, Baobao Chang
                     </div>
                     <div class="pub-venue">
-                        <strong>CVPR 2025</strong> (Oral Presentation)
+                        <i>arXiv 2025</i>
                     </div>
                     <div class="pub-links">
-                        <a href="#">[PDF]</a>
-                        <a href="#">[Code]</a>
-                        <a href="#">[Project Page]</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <div class="pub-img-wrapper">
-                    <img src="https://via.placeholder.com/280x200/e0e0e0/888888?text=Paper+Img" alt="Paper Image" class="pub-img">
-                </div>
-                <div class="pub-content">
-                    <a href="#" class="pub-title">Efficient Training for Large Scale Transformers</a>
-                    <div class="pub-authors">
-                        Co-author One, <b>Alex Chen</b>, Supervisor Name
-                    </div>
-                    <div class="pub-venue">
-                        <strong>NeurIPS 2024</strong>
-                    </div>
-                    <div class="pub-links">
-                        <a href="#">[PDF]</a>
-                        <a href="#">[Code]</a>
+                        <a href="https://arxiv.org/pdf/2509.18150">[PAPER]</a>
                     </div>
                 </div>
             </div>
@@ -456,13 +415,13 @@
             <h2 class="section-title">Education</h2>
             
             <div class="edu-item">
-                <div class="edu-title">University Name</div>
-                <div class="edu-meta">Ph.D. in Computer Science · 2022 - Present</div>
+                <div class="edu-title">Peking Univsersity</div>
+                <div class="edu-meta">M.Sc in Computer Science · 2025 - Present</div>
             </div>
 
             <div class="edu-item">
                 <div class="edu-title">Tianjin University</div>
-                <div class="edu-meta">B.Eng. in Software Engineering · 2018 - 2022</div>
+                <div class="edu-meta">B.Eng. in Computer Science · 2021 - 2025</div>
             </div>
         </section>
 
