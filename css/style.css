@@ -121,3 +121,11 @@ ul.my_table{
   color:brown;
   float:right;
 }
+
+h2 {
+  font-style: italic;
+  border-bottom: 2px solid #cecfcf; 
+  padding-bottom: 5px;            
+  margin-bottom: 15px;    
+  display: block;  
+}
