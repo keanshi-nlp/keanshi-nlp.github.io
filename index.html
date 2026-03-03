@@ -27,11 +27,11 @@
 					<span>Peking University</span><br/>
 					<br/>
 
-					<span>
-						<!-- <a href="slides/CV_Xixi_Oct2025.pdf" class="my_link"><i class="fa fa-file"></i> CV</a> /  -->
-						<a href="mailto:kashi25@stu.pku.edu.cn" class="my_link"><i class="fa fa-envelope"></i> Email</a> /
-						<a href="https://github.com/keanshi-nlp" class="my_link"><i class="fa fa-github"></i> GitHub</a> / 
-						<a href="https://scholar.google.com/citations?user=8ulEBcQAAAAJ" class="my_link"><i class="ai ai-google-scholar-square"></i> Google Scholar</a> 
+					<span class="profile-links">
+						<!-- <a href="slides/CV_Xixi_Oct2025.pdf" class="profile-link"><i class="fa fa-file"></i> CV</a> -->
+						<a href="mailto:kashi25@stu.pku.edu.cn" class="profile-link"><i class="fa fa-envelope"></i> Email</a>
+						<a href="https://github.com/keanshi-nlp" class="profile-link"><i class="fa fa-github"></i> GitHub</a>
+						<a href="https://scholar.google.com/citations?user=8ulEBcQAAAAJ" class="profile-link"><i class="ai ai-google-scholar-square"></i> Google Scholar</a> 
 					</span><br/>
 
 				</div>
@@ -39,12 +39,7 @@
 					<img src="images/me.jpg" width="150" height="150" style="float:right;margin-top:0px;margin-bottom:0px"></img><br/>
 				</div>
 			</div> <!-- class="row" -->
-			
-			<div class="row row-thin">
-				<div class="col-md-12">
-					<hr>
-				</div>
-			</div> <!-- class="row" -->
+
 
 			<div class="row row-thin">
 				<div class="col-md-12 text-left">
@@ -59,6 +54,7 @@
 					<p>
 						😁😉 <i style="color: #b30000;"><strong>Feel free to contact me for a chat or collaboration!</strong></i>
 					</p>
+					<br/>
 				</div>
 			</div>
 
@@ -74,19 +70,19 @@
 
 			<div class="row row-thin">
 				<div class="news-container col-md-12 text-left">
-					<h3 style="margin-top:5px; color: #b30000;"><i>Recent News</i></h3>
-					<ul style="list-style-type: disc; padding-left: 20px;">
-						<li>
-							<span style="font-style: italic; color: #555;"><strong>[Sep 2025]</strong></span>
-							Our proposed STS was released to <i>arXiv</i>, <a href="https://arxiv.org/abs/2509.18150">check it out</a>! 
+					<h3 class="news-title">Recent News</h3>
+					<ul class="news-list">
+						<li class="news-item">
+							<span class="news-content">Our proposed STS was released to <i>arXiv</i>, <a href="https://arxiv.org/abs/2509.18150" class="news-link">check it out</a>!</span>
+							<span class="news-date">Sep 2025</span>
 						</li>
-						<li>
-							<span style="font-style: italic; color: #555;"><strong>[Jul 2025]</strong></span> 
-						    Graduated from Tianjin University!
+						<li class="news-item">
+							<span class="news-content">Graduated from Tianjin University!</span>
+							<span class="news-date">Jul 2025</span>
 						</li>
-						<li>
-							<span style="font-style: italic; color: #555;"><strong>[Sep 2024]</strong></span> 
-						    Recommended to Peking University towards the M.S degree!
+						<li class="news-item">
+							<span class="news-content">Recommended to Peking University towards the M.S degree!</span>
+							<span class="news-date">Sep 2024</span>
 						</li>
 					</ul>
 				</div>
@@ -98,33 +94,41 @@
 					<h2>Research</h2>
 				</div>
 				<ul class="my_table res_table">
-					<li class="my_item">
-					  <img src="images/research/STS.png" height=auto alt="generation" class="img_research"/>
-					  <div>
-						<h3>Sparse Training Scheme for Multimodal LLM</h3> 
-						<em><strong>Kean Shi</strong>, Liang Chen, Haozhe Zhao, Baobao Chang</em>
-						<p style="font-size: 16px; margin-top: 6px;">
-							Training MLLMs is often inefficient due to the significantly longer input sequences introduced by multimodal data and the low utilization of inter-layer computations. 
-							To address this challenge, we shift the focus to the training process itself and propose a novel training-efficient framework based on sparse representations, termed the Sparse Training Scheme (STS).
-						</p>
+					<li class="my_item research-item">
+					  <img src="images/research/STS.png" height=auto alt="STS" class="img_research"/>
+					  <div class="research-content">
+						<h3 class="research-title">Sparse Training Scheme for Multimodal LLM</h3> 
+						<p class="research-authors"><strong>Kean Shi</strong>, Liang Chen, Haozhe Zhao, Baobao Chang</p>
+						<p class="research-venue">arXiv preprint, 2025</p>
 				  
-						<div style="display: flex; align-items: center;">
-						  <a href="https://arxiv.org/abs/2509.18150" class="paper-link"> [Paper] </a> 
+						<div class="research-links">
+						  <a href="https://arxiv.org/abs/2509.18150" class="paper-link">Paper</a>
+						  <span class="abstract-btn" onclick="toggleAbstract('abstract-box-1', this)">Abstract</span>
+						</div>
+						<div class="abstract-box" id="abstract-box-1" style="display: none;">
+							<div class="abstract-content" id="abstract-1">
+								Training MLLMs is often inefficient due to the significantly longer input sequences introduced by multimodal data and the low utilization of inter-layer computations. 
+								To address this challenge, we shift the focus to the training process itself and propose a novel training-efficient framework based on sparse representations, termed the Sparse Training Scheme (STS).
+							</div>
 						</div>
 					  </div>
-					</li><br/>
+					</li>
 
-					<li class="my_item">
-						<img src="images/research/scvm_with_num.png" height=auto alt="generation" class="img_research"/>
-						<div>
-						  <h3>Stateful Cross-layer Vision Modulation</h3> 
-						  <em>Ying Liu, Yudong Han, <strong>Kean Shi</strong>, Liyuan Pan</em>
-						  <p style="font-size: 16px; margin-top: 6px;">
-							We propose SCVM, a framework that enhances MLLM visual representation by governing internal feature evolution through recursive memory and feedback modulation, achieving superior performance on VQA and hallucination tasks without expanding tokens or fine-tuning the language model.
-						</p>
+					<li class="my_item research-item">
+						<img src="images/research/scvm_with_num.png" height=auto alt="SCVM" class="img_research"/>
+						<div class="research-content">
+						  <h3 class="research-title">Stateful Cross-layer Vision Modulation</h3> 
+						  <p class="research-authors">Ying Liu, Yudong Han, <strong>Kean Shi</strong>, Liyuan Pan</p>
+						  <p class="research-venue">arXiv preprint, 2026</p>
 					
-						  <div style="display: flex; align-items: center;">
-							<a href="https://arxiv.org/abs/2603.00655" class="paper-link"> [Paper] </a> 
+						  <div class="research-links">
+							<a href="https://arxiv.org/abs/2603.00655" class="paper-link">Paper</a>
+							<span class="abstract-btn" onclick="toggleAbstract('abstract-box-2', this)">Abstract</span>
+						  </div>
+						  <div class="abstract-box" id="abstract-box-2" style="display: none;">
+							<div class="abstract-content" id="abstract-2">
+								We propose SCVM, a framework that enhances MLLM visual representation by governing internal feature evolution through recursive memory and feedback modulation, achieving superior performance on VQA and hallucination tasks without expanding tokens or fine-tuning the language model.
+							</div>
 						  </div>
 						</div>
 					  </li>
@@ -354,4 +358,33 @@
 	const today = new Date();
 	const dateString = today.toLocaleDateString();
 	document.getElementById('current-date').textContent = dateString;
+
+	function toggleAbstract(abstractBoxId, toggleElement) {
+		const abstractBox = document.getElementById(abstractBoxId);
+		const isExpanded = abstractBox.classList.contains('expanded');
+		
+		if (isExpanded) {
+			// 收起动画
+			abstractBox.classList.remove('expanded');
+			toggleElement.textContent = 'Abstract';
+			toggleElement.classList.remove('active');
+			
+			// 等待动画完成后再隐藏
+			abstractBox.addEventListener('transitionend', function hideAfterAnimation() {
+				if (!abstractBox.classList.contains('expanded')) {
+					abstractBox.style.display = 'none';
+					abstractBox.removeEventListener('transitionend', hideAfterAnimation);
+				}
+			}, { once: true });
+		} else {
+			// 展开动画
+			abstractBox.style.display = 'block';
+			// 强制重排以触发动画
+			abstractBox.offsetHeight;
+			abstractBox.classList.add('expanded');
+			toggleElement.textContent = 'Hide Abstract';
+			toggleElement.classList.add('active');
+		}
+	}
+
 </script>
