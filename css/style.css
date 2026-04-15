@@ -461,6 +461,26 @@ ul.my_table.res_table > li.my_item > div{
   box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
 }
 
+.code-link {
+  color: #cb503f;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  border: 1px solid #cb503f;
+  display: inline-block;
+}
+
+.code-link:hover {
+  background-color: #cb503f;
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+}
+
 .abstract-btn {
   color: #4a90e2;
   cursor: pointer;
@@ -811,6 +831,7 @@ ul.my_table.res_table > li.my_item > div{
   }
   
   .paper-link,
+  .code-link,
   .abstract-btn {
     font-size: 13px;
     padding: 5px 10px;
@@ -944,6 +965,7 @@ ul.my_table.res_table > li.my_item > div{
   }
   
   .paper-link,
+  .code-link,
   .abstract-btn {
     font-size: 12px;
     padding: 4px 8px;
