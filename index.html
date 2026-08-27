@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="google-site-verification" content="aSc5YLbeF55oadInzbW2R97pKbsed12qRJ1Gfaghb2A" />
+  <title>Kean Shi — Homepage</title>
+  <meta name="description" content="Academic homepage of Kean Shi (石珂安) — M.Sc student at Peking University working on Agentic AI, GUI Agents, and Multimodal LLMs." />
+  <link rel="icon" href="assets/img/icon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..900;1,9..144,500..900&display=swap" rel="stylesheet" />
+  <!-- Playful CJK face, subset to just the three name glyphs -->
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&text=%E7%9F%B3%E7%8F%82%E5%AE%89&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    // Apply saved/system theme before first paint to avoid flash
+    (function () {
+      document.documentElement.classList.add("js");
+      var t = localStorage.getItem("theme");
+      if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    })();
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">Kean Shi</a>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#path">Path</a></li>
+          <li><a href="#awards">Awards</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <svg class="icon icon-sun" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+        </svg>
+        <svg class="icon icon-moon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero: collage bento ============ -->
+    <section class="hero container" aria-label="Introduction">
+      <svg class="shape shape-star shape-star-1" aria-hidden="true" viewBox="0 0 100 100">
+        <path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/>
+      </svg>
+      <svg class="shape shape-leaf" aria-hidden="true" viewBox="0 0 100 100">
+        <path d="M50 2 C58 20 72 26 78 42 C84 58 76 66 82 82 C64 74 60 88 50 98 C40 88 36 74 18 82 C24 66 16 58 22 42 C28 26 42 20 50 2 Z"/>
+      </svg>
+
+      <div class="bento">
+        <div class="tile tile-name">
+          <svg class="shape shape-star shape-star-2" aria-hidden="true" viewBox="0 0 100 100">
+            <path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/>
+          </svg>
+          <p class="kicker">M.Sc Student · Peking University</p>
+          <h1>Kean<br />Shi <span class="name-cn" lang="zh">石珂安</span></h1>
+          <p class="lede">
+            I build and evaluate <em>agentic AI</em> — computer-use agents,
+            GUI agents, and <em>multimodal LLMs</em> that get real work done.
+            I believe AGI is the future, and that AI should keep pushing
+            humanity forward.
+          </p>
+        </div>
+
+        <div class="tile tile-portrait">
+          <div class="portrait-frame">
+            <img class="portrait" src="assets/img/me.jpg" alt="Portrait of Kean Shi" width="560" height="560" />
+          </div>
+        </div>
+
+        <ul class="tile tile-links" aria-label="Profiles and contact">
+          <li>
+            <a class="chip chip-red" href="mailto:kashi25@stu.pku.edu.cn">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+              Email
+            </a>
+          </li>
+          <li>
+            <a class="chip chip-ochre" href="assets/cv.pdf" rel="noopener">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10 9H8M16 13H8M16 17H8"/></svg>
+              CV
+            </a>
+          </li>
+          <li>
+            <a class="chip chip-green" href="https://github.com/keanshi-nlp" rel="noopener">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a class="chip chip-blue" href="https://scholar.google.com/citations?user=8ulEBcQAAAAJ" rel="noopener">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-3.5"/></svg>
+              Scholar
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Interests ticker (decorative) ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <div class="ticker-group">
+          <span>Agentic AI</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>GUI Agents</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Computer-Use Agents</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Multimodal LLMs</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Benchmarks</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Efficient Training</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+        </div>
+        <div class="ticker-group">
+          <span>Agentic AI</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>GUI Agents</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Computer-Use Agents</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Multimodal LLMs</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Benchmarks</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+          <span>Efficient Training</span><svg class="ticker-star" viewBox="0 0 100 100"><path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ About ============ -->
+    <section id="about" class="section container">
+      <h2 class="section-title section-title-green">About</h2>
+      <div class="about-body">
+        <p>
+          Hello! I am Kean Shi, a first-year master student at
+          <a href="https://english.pku.edu.cn/" rel="noopener">Peking University</a>
+          (<a href="https://cs.pku.edu.cn/English/Home.htm" rel="noopener">School of Computer Science</a>),
+          supervised by <a href="https://pkunlp-icler.github.io/" rel="noopener">Prof. Baobao Chang</a>.
+          Prior to this, I received my bachelor degree in Computer Science from
+          <a href="https://en.tju.edu.cn/" rel="noopener">Tianjin University</a> in 2025.
+        </p>
+        <p>
+          My research interests lie at the intersection of <strong>Agentic AI</strong>,
+          <strong>GUI Agents</strong> and <strong>Multimodal Large Language Models (MLLM)</strong>.
+          Now I am a research intern at
+          <a href="https://unipat.ai/" rel="noopener">UniPat AI</a> <img src="assets/img/company/unipat.png" alt="" class="inline-logo" />.
+          And I was also fortunate to collaborate with researchers from
+          <a href="https://0g.ai/" rel="noopener">0G</a> <img src="assets/img/company/0g.png" alt="" class="inline-logo" />
+          and <a href="https://illinois.edu/" rel="noopener">UIUC</a> <img src="assets/img/company/UIUC.png" alt="" class="inline-logo" />.
+        </p>
+        <p class="contact-cta">Feel free to <a href="mailto:kashi25@stu.pku.edu.cn">contact me</a> for a chat or collaboration!</p>
+      </div>
+    </section>
+
+    <svg class="divider" aria-hidden="true" viewBox="0 0 1200 48" preserveAspectRatio="none">
+      <path class="fill-band" d="M0 30 C 100 8 200 44 300 28 C 400 12 500 40 600 26 C 700 12 800 42 900 28 C 1000 14 1100 38 1200 24 L1200 48 L0 48 Z"/>
+    </svg>
+
+    <!-- ============ News ============ -->
+    <div class="band">
+      <section id="news" class="section container">
+        <h2 class="section-title section-title-blue">Recent News</h2>
+        <ul class="news-list">
+          <li>
+            <span class="news-date">Jul 2026</span>
+            <span class="news-text"><a href="https://arxiv.org/abs/2607.24653" rel="noopener"><strong>Kimi K3</strong></a> got <em>60.1%</em> in SaaS-Bench!</span>
+          </li>
+          <li>
+            <span class="news-date">May 2026</span>
+            <span class="news-text"><strong>SaaS-Bench</strong> was released to arXiv, <a href="https://arxiv.org/abs/2605.15777" rel="noopener">check it out</a>!</span>
+          </li>
+          <li>
+            <span class="news-date">Sep 2025</span>
+            <span class="news-text"><strong>STS</strong> was released to arXiv, <a href="https://arxiv.org/abs/2509.18150" rel="noopener">check it out</a>!</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <svg class="divider divider-flip" aria-hidden="true" viewBox="0 0 1200 48" preserveAspectRatio="none">
+      <path class="fill-band" d="M0 30 C 100 8 200 44 300 28 C 400 12 500 40 600 26 C 700 12 800 42 900 28 C 1000 14 1100 38 1200 24 L1200 48 L0 48 Z"/>
+    </svg>
+
+    <!-- ============ Research ============ -->
+    <section id="research" class="section container">
+      <svg class="shape shape-star shape-star-3" aria-hidden="true" viewBox="0 0 100 100">
+        <path d="M50 0 C54 30 70 46 100 50 C70 54 54 70 50 100 C46 70 30 54 0 50 C30 46 46 30 50 0 Z"/>
+      </svg>
+      <h2 class="section-title section-title-red">Research</h2>
+      <ul class="pub-list">
+        <li class="pub">
+          <img src="assets/img/research/SaaS-Bench.png" alt="SaaS-Bench overview figure" class="pub-img" loading="lazy" width="900" height="450" />
+          <div class="pub-body">
+            <h3 class="pub-title">SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?</h3>
+            <p class="pub-authors"><strong>Kean Shi</strong><sup>*</sup>, Zihang Li<sup>*</sup>, Tianyi Ma<sup>*</sup> et al.</p>
+            <p class="pub-venue">arXiv preprint · <span class="badge">2026</span></p>
+            <p class="pub-links">
+              <button class="link-btn abs-toggle" type="button" aria-expanded="false" aria-controls="abs-1">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6H3M15 12H3M17 18H3"/></svg>
+                <span class="abs-label">Abstract</span>
+              </button>
+              <a class="link-btn" href="https://arxiv.org/abs/2605.15777" rel="noopener">Paper</a>
+              <a class="link-btn" href="https://github.com/UniPat-AI/SaaS-Bench" rel="noopener">Code</a>
+              <a class="link-btn" href="https://unipat.ai/blog/SaaS-Bench" rel="noopener">Blog</a>
+              <a class="link-btn" href="https://unipat.ai/benchmarks/SaaS-Bench" rel="noopener">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21 1.18.54 2.03 2.03 2.03 4M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+                Leaderboard
+              </a>
+            </p>
+            <div class="abstract" id="abs-1">
+              <div>
+                <p>Computer-Using Agents (CUAs) are rapidly extending large language models (LLMs) beyond text-based reasoning toward action execution in more complex environments, such as web browsers and graphical user interfaces (GUIs). However, existing web and GUI agent benchmarks often rely on simplified settings, isolated tasks, or short-horizon interactions, making it difficult to assess capabilities of agents in realistic professional workflows. Software-as-a-Service (SaaS) environments are a natural choice for CUA evaluation, as they host a large share of modern digital work and naturally involve dynamic system states, cross-application coordination, domain-specific knowledge, and long-horizon dependencies. To this end, we introduce SaaS-Bench, a benchmark built on 23 deployable SaaS systems across six professional domains, containing 106 tasks grounded in realistic work scenarios. These tasks require long-horizon execution, cover both text-only and multimodal settings, and are evaluated with weighted verification checkpoints that measure strict task completion and partial progress. Experiments show that representative LLM-based agents struggle on SaaS-Bench, with even the strongest model completing fewer than 4% of tasks end-to-end, exposing limitations in planning, state tracking, cross-application context maintenance, and error recovery.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <img src="assets/img/research/STS.png" alt="Sparse Training Scheme overview figure" class="pub-img" loading="lazy" width="900" height="450" />
+          <div class="pub-body">
+            <h3 class="pub-title">Improving MLLM Training Efficiency via Stage-Aware Sparsity</h3>
+            <p class="pub-authors"><strong>Kean Shi</strong>, Liang Chen, Haozhe Zhao, Baobao Chang</p>
+            <p class="pub-venue">arXiv preprint · <span class="badge">2025</span></p>
+            <p class="pub-links">
+              <button class="link-btn abs-toggle" type="button" aria-expanded="false" aria-controls="abs-2">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6H3M15 12H3M17 18H3"/></svg>
+                <span class="abs-label">Abstract</span>
+              </button>
+              <a class="link-btn" href="https://arxiv.org/abs/2509.18150v2" rel="noopener">Paper</a>
+            </p>
+            <div class="abstract" id="abs-2">
+              <div>
+                <p>Multimodal Large Language Models (MLLMs) have demonstrated outstanding performance across a variety of domains. However, training MLLMs is often inefficient, as much of the computation is redundant due to the long input sequences from multimodal data and underutilized inter-layer operations. Notably, such redundancy is not static but varies across different stages of training. Building on this observation, we shift the focus to the training process itself and propose a training-efficient framework based on sparse representations, termed the Sparse Training Scheme (STS). Instead of applying a uniform sparsity strategy, STS adopts a stage-aware design that adapts to different sources of redundancy during training. Specifically, the framework consists of two complementary components: the Visual Token Compressor, which reduces the information load by compressing visual tokens during modality alignment, and the Layer Dynamic Skipper, which mitigates computational overhead by dynamically skipping unnecessary layers during instruction tuning. Our approach is broadly applicable to diverse MLLM architectures and has been extensively evaluated on multiple benchmarks, demonstrating its effectiveness and efficiency.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <img src="assets/img/research/Mema.png" alt="Mema architecture figure" class="pub-img" loading="lazy" width="900" height="450" />
+          <div class="pub-body">
+            <h3 class="pub-title">Mema: Memory-Augmented Adapter for Enhanced Vision-Language Understanding</h3>
+            <p class="pub-authors">Ying Liu, Yudong Han, <strong>Kean Shi</strong>, Liyuan Pan</p>
+            <p class="pub-venue">arXiv preprint · <span class="badge">2026</span></p>
+            <p class="pub-links">
+              <button class="link-btn abs-toggle" type="button" aria-expanded="false" aria-controls="abs-3">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6H3M15 12H3M17 18H3"/></svg>
+                <span class="abs-label">Abstract</span>
+              </button>
+              <a class="link-btn" href="https://arxiv.org/abs/2603.00655" rel="noopener">Paper</a>
+              <a class="link-btn" href="https://github.com/Sisiliu312/Mema" rel="noopener">Code</a>
+            </p>
+            <div class="abstract" id="abs-3">
+              <div>
+                <p>Recent multimodal large language models (MLLMs) widely adopt multi-layer visual feature fusion to enhance visual representation. However, existing approaches typically perform static concatenation or weighted aggregation after visual encoding, without intervening in the representation formation process itself. As a result, fine-grained details from early layers may be progressively suppressed during hierarchical abstraction. Moreover, directly introducing shallow-layer features into the language model often leads to semantic distribution mismatch with the visual feature space that the LLM's cross-attention layers were pretrained on, which typically requires additional adaptation or fine-tuning of the LLM. To address these limitations, we revisit visual representation learning from the perspective of representation evolution control and propose a cross-layer memory-modulated vision framework (SCVM). Specifically, we introduce a recursively updated cross-layer memory state inside the vision encoder to model long-range inter-layer dependencies. We further design a layer-wise feedback modulation mechanism that refreshes token representations at each layer based on the accumulated memory, thereby structurally regulating the representation evolution trajectory. In addition, we incorporate an auxiliary semantic alignment objective that explicitly supervises the final memory state, encouraging progressive compression and reinforcement of task-relevant information. Experimental results on multiple visual question answering and hallucination evaluation benchmarks demonstrate that SCVM achieves consistent performance improvements without expanding visual tokens, introducing additional vision encoders, or modifying or fine-tuning the language model.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="pub">
+          <img src="assets/img/research/Roadmap.png" alt="RoadmapBench overview figure" class="pub-img" loading="lazy" width="900" height="450" />
+          <div class="pub-body">
+            <h3 class="pub-title">RoadmapBench: Evaluating Long-Horizon Agentic Software Development Across Version Upgrades</h3>
+            <p class="pub-authors">Xinbo Xu, Ruihan Yang, … <strong>Kean Shi</strong> et al.</p>
+            <p class="pub-venue">arXiv preprint · <span class="badge">2026</span></p>
+            <p class="pub-links">
+              <button class="link-btn abs-toggle" type="button" aria-expanded="false" aria-controls="abs-4">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 6H3M15 12H3M17 18H3"/></svg>
+                <span class="abs-label">Abstract</span>
+              </button>
+              <a class="link-btn" href="https://arxiv.org/abs/2605.15846" rel="noopener">Paper</a>
+              <a class="link-btn" href="https://github.com/UniPat-AI/RoadmapBench" rel="noopener">Code</a>
+              <a class="link-btn" href="https://unipat.ai/benchmarks/RoadmapBench" rel="noopener">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6M18 9h1.5a2.5 2.5 0 0 0 0-5H18M4 22h16M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22M14 14.66V17c0 .55.47.98.97 1.21 1.18.54 2.03 2.03 2.03 4M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+                Leaderboard
+              </a>
+              <a class="link-btn" href="https://huggingface.co/datasets/UnipatAI/RoadmapBench" rel="noopener">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+                Dataset
+              </a>
+            </p>
+            <div class="abstract" id="abs-4">
+              <div>
+                <p>Coding agents are increasingly deployed in real software development, where a single version iteration requires months of coordinated work across many files. However, most existing benchmarks focus predominantly on single-issue bug fixes from Python repositories, with coarse pass/fail evaluation outcomes, and thus fail to capture long-horizon, multi-target development at real engineering scale. To address this gap, we present RoadmapBench, a benchmark of 115 long-horizon coding tasks grounded in real open-source version upgrades across 17 repositories and 5 programming languages. Each task places the agent on a source-version code snapshot and provides a multi-target roadmap instruction requiring it to implement the functionality introduced in the target version, with a median modification of 3,700 lines across 51 files. We conduct a systematic evaluation on thirteen frontier models and find that even the strongest, Claude-Opus-4.7, resolves only 39.1% of tasks, while the weakest achieves merely 5.2%, in stark contrast to existing bug-fix benchmarks, suggesting that long-horizon software development remains a largely unsolved problem.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <p class="pub-more">
+        Full list on <a href="https://scholar.google.com/citations?user=8ulEBcQAAAAJ" rel="noopener">Google Scholar</a>.
+      </p>
+    </section>
+
+    <svg class="divider" aria-hidden="true" viewBox="0 0 1200 48" preserveAspectRatio="none">
+      <path class="fill-band" d="M0 30 C 100 8 200 44 300 28 C 400 12 500 40 600 26 C 700 12 800 42 900 28 C 1000 14 1100 38 1200 24 L1200 48 L0 48 Z"/>
+    </svg>
+
+    <!-- ============ Path: Experience + Education ============ -->
+    <div class="band">
+      <section id="path" class="section container">
+        <h2 class="section-title section-title-ochre">Path</h2>
+        <div class="path-grid">
+          <div class="path-col">
+            <h3 class="path-heading">Experience</h3>
+            <ul class="path-list">
+              <li class="path-item">
+                <img src="assets/img/company/unipat.png" alt="" class="path-logo" loading="lazy" width="48" height="48" />
+                <div class="path-body">
+                  <p class="path-org">UniPat AI <span class="path-date">Jan 2026 – Now</span></p>
+                  <p class="path-desc">Research Intern, Beijing</p>
+                </div>
+              </li>
+              <li class="path-item">
+                <img src="assets/img/company/xiaomi.png" alt="" class="path-logo" loading="lazy" width="48" height="48" />
+                <div class="path-body">
+                  <p class="path-org">Xiaomi Inc. <span class="path-date">Apr 2024 – Jul 2024</span></p>
+                  <p class="path-desc">Engineering Intern</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="path-col">
+            <h3 class="path-heading">Education</h3>
+            <ul class="path-list">
+              <li class="path-item">
+                <img src="assets/img/company/pku.png" alt="" class="path-logo" loading="lazy" width="48" height="48" />
+                <div class="path-body">
+                  <p class="path-org">Peking University <span class="path-date">Sep 2025 – Now</span></p>
+                  <p class="path-desc">M.S. in Computer Science, School of Computer Science<br />Supervised by Prof. Baobao Chang</p>
+                </div>
+              </li>
+              <li class="path-item">
+                <img src="assets/img/company/tju.png" alt="" class="path-logo" loading="lazy" width="48" height="48" />
+                <div class="path-body">
+                  <p class="path-org">Tianjin University <span class="path-date">Sep 2021 – Jun 2025</span></p>
+                  <p class="path-desc">B.Eng. in Computer Science, College of Intelligence and Computing</p>
+                </div>
+              </li>
+              <li class="path-item">
+                <img src="assets/img/company/nkzx.png" alt="" class="path-logo" loading="lazy" width="48" height="48" />
+                <div class="path-body">
+                  <p class="path-org">Tianjin Nankai High School <span class="path-date">Sep 2018 – Jun 2021</span></p>
+                  <p class="path-desc">Senior High School</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <svg class="divider divider-flip" aria-hidden="true" viewBox="0 0 1200 48" preserveAspectRatio="none">
+      <path class="fill-band" d="M0 30 C 100 8 200 44 300 28 C 400 12 500 40 600 26 C 700 12 800 42 900 28 C 1000 14 1100 38 1200 24 L1200 48 L0 48 Z"/>
+    </svg>
+
+    <!-- ============ Awards & Services ============ -->
+    <section id="awards" class="section container">
+      <div class="tile-duo">
+        <div class="mini-tile mini-tile-a">
+          <h2 class="section-title section-title-red">Selected Awards</h2>
+          <ul class="award-list">
+            <li>
+              <span>Outstanding Graduate Student</span>
+              <span class="award-date">Jul 2025</span>
+            </li>
+            <li>
+              <span>National Scholarship of undergraduate student <em class="award-highlight">(Top 1‰ in China)</em></span>
+              <span class="award-date">Dec 2024</span>
+            </li>
+          </ul>
+        </div>
+        <div class="mini-tile mini-tile-b">
+          <h2 class="section-title section-title-blue">Services</h2>
+          <ul class="award-list">
+            <li><span>Teaching assistant of “Introduction to Computing (C)” at EECS, PKU</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <svg class="divider" aria-hidden="true" viewBox="0 0 1200 48" preserveAspectRatio="none">
+      <path class="fill-contact" d="M0 30 C 100 8 200 44 300 28 C 400 12 500 40 600 26 C 700 12 800 42 900 28 C 1000 14 1100 38 1200 24 L1200 48 L0 48 Z"/>
+    </svg>
+
+    <!-- ============ Contact ============ -->
+    <div class="contact-band">
+      <section id="contact" class="section container">
+        <svg class="shape shape-leaf shape-leaf-2" aria-hidden="true" viewBox="0 0 100 100">
+          <path d="M50 2 C58 20 72 26 78 42 C84 58 76 66 82 82 C64 74 60 88 50 98 C40 88 36 74 18 82 C24 66 16 58 22 42 C28 26 42 20 50 2 Z"/>
+        </svg>
+        <h2 class="section-title section-title-contact">Contact</h2>
+        <p class="contact-lede">
+          The best way to reach me is by email at
+          <a href="mailto:kashi25@stu.pku.edu.cn">kashi25@stu.pku.edu.cn</a>.
+        </p>
+        <div class="visitor-map">
+          <p class="visitor-map-caption">Visitors around the world</p>
+          <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=NlHPYRXkappvXFmbs1DYAIe1KSC0BT4zA5-Xyyymjhw&cl=f9efdc&w=280&t=tt&co=274690&cmo=e0a32e&cmn=e2492a&ct=f9efdc"></script>
+          <noscript>
+            <img width="1" height="1" src="https://mapmyvisitors.com/map.png?d=NlHPYRXkappvXFmbs1DYAIe1KSC0BT4zA5-Xyyymjhw&cl=f9efdc" alt="" />
+          </noscript>
+        </div>
+      </section>
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© 2026 Kean Shi · Last updated August 2026</p>
+        </div>
+      </footer>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      var btn = document.getElementById("theme-toggle");
+      var root = document.documentElement;
+      function isDark() { return root.getAttribute("data-theme") === "dark"; }
+      function sync() { btn.setAttribute("aria-pressed", String(isDark())); }
+      btn.addEventListener("click", function () {
+        var dark = !isDark();
+        if (dark) { root.setAttribute("data-theme", "dark"); }
+        else { root.removeAttribute("data-theme"); }
+        localStorage.setItem("theme", dark ? "dark" : "light");
+        sync();
+      });
+      sync();
+    })();
+
+    // Ticker: clone content until half the track covers the viewport, so the
+    // -50% loop never shows a gap. Clones added in pairs to keep the two
+    // halves identical. Re-checked on resize and after fonts load, so the
+    // loop stays gapless at any window width.
+    (function () {
+      var track = document.querySelector(".ticker-track");
+      if (!track) return;
+      var group = track.children[0];
+      function fill() {
+        while (track.scrollWidth / 2 < window.innerWidth * 1.25 && track.children.length < 40) {
+          track.appendChild(group.cloneNode(true));
+          track.appendChild(group.cloneNode(true));
+        }
+        // Keep scroll speed constant regardless of how many copies exist
+        var dur = Math.round(track.scrollWidth / 2 / 55) + "s";
+        if (track.style.animationDuration !== dur) track.style.animationDuration = dur;
+      }
+      fill();
+      window.addEventListener("resize", fill);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(fill);
+    })();
+
+    // Abstract accordions
+    document.querySelectorAll(".abs-toggle").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var box = document.getElementById(btn.getAttribute("aria-controls"));
+        var open = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!open));
+        box.classList.toggle("open", !open);
+        btn.querySelector(".abs-label").textContent = open ? "Abstract" : "Hide";
+      });
+    });
+
+    // Scroll reveal: skipped entirely for no-JS and reduced-motion users
+    (function () {
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      if (!("IntersectionObserver" in window)) return;
+
+      var groups = document.querySelectorAll(".news-list, .pub-list, .path-list");
+      groups.forEach(function (group) {
+        Array.prototype.forEach.call(group.children, function (item, i) {
+          item.classList.add("reveal");
+          item.style.setProperty("--reveal-delay", Math.min(i * 60, 240) + "ms");
+        });
+      });
+      document.querySelectorAll(".section-title, .about-body p, .pub-more, .mini-tile, #contact p").forEach(function (el) {
+        el.classList.add("reveal");
+      });
+
+      var observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            var el = entry.target;
+            el.classList.add("revealed");
+            observer.unobserve(el);
+            el.addEventListener("transitionend", function onEnd(e) {
+              if (e.propertyName !== "opacity") return;
+              el.classList.add("settled");
+              el.removeEventListener("transitionend", onEnd);
+            });
+          }
+        });
+      }, { rootMargin: "0px 0px -8% 0px" });
+
+      document.querySelectorAll(".reveal").forEach(function (el) { observer.observe(el); });
+    })();
+  </script>
+</body>
+</html>
